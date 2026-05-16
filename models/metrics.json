@@ -1,0 +1,82 @@
+{
+  "accuracy": 0.9159090909090909,
+  "f1_macro": 0.9161381704734635,
+  "precision_macro": 0.9167802533271534,
+  "recall_macro": 0.9159090909090909,
+  "classification_report": {
+    "Cloudy": {
+      "precision": 0.876453488372093,
+      "recall": 0.9136363636363637,
+      "f1-score": 0.8946587537091988,
+      "support": 660.0
+    },
+    "Rainy": {
+      "precision": 0.9037593984962407,
+      "recall": 0.9106060606060606,
+      "f1-score": 0.9071698113207547,
+      "support": 660.0
+    },
+    "Snowy": {
+      "precision": 0.9541864139020537,
+      "recall": 0.9151515151515152,
+      "f1-score": 0.934261407579273,
+      "support": 660.0
+    },
+    "Sunny": {
+      "precision": 0.9327217125382263,
+      "recall": 0.9242424242424242,
+      "f1-score": 0.928462709284627,
+      "support": 660.0
+    },
+    "accuracy": 0.9159090909090909,
+    "macro avg": {
+      "precision": 0.9167802533271534,
+      "recall": 0.9159090909090909,
+      "f1-score": 0.9161381704734635,
+      "support": 2640.0
+    },
+    "weighted avg": {
+      "precision": 0.9167802533271533,
+      "recall": 0.9159090909090909,
+      "f1-score": 0.9161381704734635,
+      "support": 2640.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      603,
+      35,
+      11,
+      11
+    ],
+    [
+      36,
+      601,
+      10,
+      13
+    ],
+    [
+      20,
+      16,
+      604,
+      20
+    ],
+    [
+      29,
+      13,
+      8,
+      610
+    ]
+  ],
+  "model": "XGBClassifier",
+  "tuned": false,
+  "best_params": null,
+  "train_rows": 10560,
+  "test_rows": 2640,
+  "classes": [
+    "Cloudy",
+    "Rainy",
+    "Snowy",
+    "Sunny"
+  ]
+}
